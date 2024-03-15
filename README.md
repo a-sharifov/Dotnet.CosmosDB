@@ -15,7 +15,9 @@ CosmosDB:
 ```
 You should replace "Endpoint", "Key", "DatabaseName" with the corresponding values from your Cosmos DB configuration. These settings will allow your application to connect to Cosmos DB in the Azure cloud.
 
-These settings can be obtained from section Keys in Cosmos DB:
+These settings can be obtained from section Keys in Cosmos DB in portal azure:
+
+
 
 
 
