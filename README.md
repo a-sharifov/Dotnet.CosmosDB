@@ -13,12 +13,24 @@ CosmosDB:
   Key: "your_cosmosdb_authorization_key"
   DatabaseName: "your_cosmosdb_database_name"
 ```
+
 You should replace "Endpoint", "Key", "DatabaseName" with the corresponding values from your Cosmos DB configuration. These settings will allow your application to connect to Cosmos DB in the Azure cloud.
 
 These settings can be obtained from section Keys in Cosmos DB in portal azure:
 
+![](https://github.com/a-sharifov/Dotnet.CosmosDB/blob/master/img/Azure_CosmosDB_Keys.png?raw=true)
 
 
+---
 
+## 🌟 Enjoyed my project?
 
+- Please consider starring the repository.
+- You can donate on [Patreon](https://www.patreon.com/a_sharifov).
+
+## 📫 Contact
+
+If you have any questions or suggestions, feel free to reach out to me.
+
+This project is licensed under the [MIT License](LICENSE).
 
