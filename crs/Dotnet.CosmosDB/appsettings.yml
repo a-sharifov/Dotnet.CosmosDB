@@ -6,8 +6,8 @@ Logging:
 
 # Enter your info.
 # CosmosDB:
-#   Endpoint:
-#   Key:
-#   DatabaseName:
+#   Endpoint: "your_cosmosdb_endpoint_uri"
+#   Key: "your_cosmosdb_authorization_key"
+#   DatabaseName: "your_cosmosdb_database_name"
 
 AllowedHosts: "*"
