@@ -16,7 +16,7 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddCosmosDBContext<WeatherCosmosDBContext>(x =>
 {
-    builder.Configuration.GetSection("CosmosDb").Bind(x);
+    builder.Configuration.GetSection("CosmosDB").Bind(x);
 });
 
 builder.Services.AddTransient<IWeatherRepository, WeatherRepository>();

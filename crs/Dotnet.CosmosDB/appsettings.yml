@@ -4,4 +4,10 @@ Logging:
     Default: "Information"
     Microsoft.AspNetCore: "Warning"
 
+# Enter your info.
+# CosmosDB:
+#   Endpoint:
+#   Key:
+#   DatabaseName:
+
 AllowedHosts: "*"
