@@ -21,7 +21,7 @@ To run the project, make sure you have the required version of .NET and Docker i
 
 4. **Configure Cosmos DB Settings:**
    - Open the `appsettings.yml` file in your project.
-   - If necessary, override the following settings for the Cosmos DB section:
+   - Override the following settings for the Cosmos DB section:
      ```yml
      CosmosDB:
        Endpoint: "your_cosmosdb_endpoint_uri"
