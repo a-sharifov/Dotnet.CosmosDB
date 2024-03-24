@@ -3,23 +3,36 @@
 This repository serves to demonstrate the current capabilities of .NET Cosmos DB.
 
 ## Usage
-To run the project, ensure you have the required version of .NET and Docker installed. Additionally, you'll need an Azure account with Cosmos DB added. The project can be launched like any other C# project.
 
-In the appsettings.yml file, you may need to override the following settings for the Cosmos DB section:
+To run the project, make sure you have the required version of .NET and Docker installed on your machine. Additionally, you'll need an Azure account with Cosmos DB added to it. Follow these steps to launch the project:
 
-```yml
-CosmosDB:
-  Endpoint: "your_cosmosdb_endpoint_uri"
-  Key: "your_cosmosdb_authorization_key"
-  DatabaseName: "your_cosmosdb_database_name"
-```
+1. **Clone the Repository:**
+   - Clone or download the project repository to your local machine.
 
-You should replace "Endpoint", "Key", "DatabaseName" with the corresponding values from your Cosmos DB configuration. These settings will allow your application to connect to Cosmos DB in the Azure cloud.
 
-These settings can be obtained from section Keys in Cosmos DB in portal azure:
+2. **Sign in to Azure Portal:**
+   - Go to [Azure Portal](https://portal.azure.com/).
+   - Sign in with your Azure account.
 
-![](https://github.com/a-sharifov/Dotnet.CosmosDB/blob/master/img/Azure_CosmosDB_Keys.png?raw=true)
+3. **Obtain Cosmos DB Settings:**
+   - Navigate to the Keys section in your Cosmos DB resource on the Azure portal:
+     ![Cosmos DB Keys](https://github.com/a-sharifov/Dotnet.CosmosDB/blob/master/img/Azure_CosmosDB_Keys.png?raw=true)
+   - This is information about your database
 
+4. **Configure Cosmos DB Settings:**
+   - Open the `appsettings.yml` file in your project.
+   - If necessary, override the following settings for the Cosmos DB section:
+     ```yml
+     CosmosDB:
+       Endpoint: "your_cosmosdb_endpoint_uri"
+       Key: "your_cosmosdb_authorization_key"
+       DatabaseName: "your_cosmosdb_database_name"
+     ```
+   - Replace "Endpoint", "Key", and "DatabaseName" with the corresponding values from your Cosmos DB configuration.
+   - Write the name of the database yourself
+
+5. **Run the Project:**
+   - Launch the project using your preferred IDE or command line tool.
 
 ---
 
